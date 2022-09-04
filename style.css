@@ -1,0 +1,32 @@
+#container{
+    text-align: center;
+}
+
+#gameBoard{
+border: 2px solid black;
+}
+
+#stop-btn,#reset-btn,#play-btn{
+    width: 100px;
+    height: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border:5px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 900;
+}
+#score{
+    font-size: 40px;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#reset-btn:hover{
+    background-color:yellow;
+}
+#play-btn:hover{
+    background-color: green;
+}
+#stop-btn:hover{
+    background-color: red;
+}
